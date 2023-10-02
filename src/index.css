@@ -11,9 +11,13 @@ body {
 }
 .btn-cus {
   background: rgb(80, 89, 171);
-  background: linear-gradient(
-    90deg,
-    rgba(80, 89, 171, 1) 0%,
-    rgba(55, 110, 233, 1) 69%
-  );
+  background: linear-gradient(90deg, #5059ab 0%, #376ee9 69%);
+}
+
+.border-gray-700 {
+  --tw-border-opacity: 1;
+  border-color: darkblue
+}
+.border-t-2 {
+  border-top-width: 2px;
 }

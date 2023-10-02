@@ -6,14 +6,6 @@
     rgba(55, 110, 233, 1) 69%
   );
 }
-.border-gray-700 {
-  --tw-border-opacity: 1;
-  /* border-color: rgb(55 65 81 / var(--tw-border-opacity)); */
-  border-color: blue;
-}
-.border-t-2 {
-  border-top-width: 2px;
-}
 @media (max-width: 768px) {
   .skill{
     flex-wrap: wrap;
