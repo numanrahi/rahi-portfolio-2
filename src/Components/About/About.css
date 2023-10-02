@@ -1,0 +1,7 @@
+.border-time {
+    border: 2px solid white;
+    border-radius: 16px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}

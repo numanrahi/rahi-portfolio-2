@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.text-secondary {
+  font-family: "Inconsolata", monospace;
+}
+.btn-cus {
+  background: rgb(80, 89, 171);
+  background: linear-gradient(
+    90deg,
+    rgba(80, 89, 171, 1) 0%,
+    rgba(55, 110, 233, 1) 69%
+  );
+}

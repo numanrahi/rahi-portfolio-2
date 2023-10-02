@@ -1,0 +1,32 @@
+.icon {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  background: rgb(80, 89, 171);
+  background: linear-gradient(
+    90deg,
+    rgba(80, 89, 171, 1) 0%,
+    rgba(55, 110, 233, 1) 69%
+  );
+  color: white;
+}
+
+.service-hover {
+  background-color: #b9b4c7;
+}
+.service-hover:hover {
+  background: rgb(199, 180, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(199, 180, 180, 1) 0%,
+    rgba(173, 202, 206, 1) 90%
+  );
+}
+
+@media (max-width: 576px) {
+  .my-sm-2 {
+    margin: 10px 0;
+  }
+}
