@@ -1,5 +1,7 @@
 import React from "react";
 import "./Skills.css";
+import { TbBrandVscode } from "react-icons/tb";
+import { BsGithub } from "react-icons/bs";
 const Skills = () => {
   return (
     <div>
@@ -9,74 +11,64 @@ const Skills = () => {
       <div className="d-flex skill">
         <div className="container px-5">
           <div className="fs-4 py-4">Skills</div>
-          <hr className="border-t-2 border-gray-700 pb-2" />
+          <hr className="py-2 border-gray-700 pb-2" />
           <div
             data-aos="fade-up"
-            className="row row-cols-2 row-cols-md-4 row-cols-lg-6 gap-2 gap-md-4 pb-6"
+            className="d-flex flex-wrap gap-2 gap-md-4 pb-6"
           >
-            <div className="col-5 col-md-3 col-lg-2 border rounded text-center p-2 bg-cus text-white">
+            <div className="border rounded text-center py-2 px-4 bg-cus text-white">
               HTML
             </div>
-            <div className="col-5 col-md-3 col-lg-2 border rounded text-center p-2 bg-cus text-white">
+            <div className="border rounded text-center py-2 px-4 bg-cus text-white">
               CSS
             </div>
-            <div className="col-5 col-md-3 col-lg-2 border rounded text-center p-2 bg-cus text-white">
+            <div className="border rounded text-center py-2 px-4 bg-cus text-white">
               Bootstrap
             </div>
-            <div className="col-5 col-md-3 col-lg-2 border rounded text-center p-2 bg-cus text-white">
+            <div className="border rounded text-center py-2 px-4 bg-cus text-white">
               TailwindCSS
             </div>
-            <div className="col-5 col-md-3 col-lg-2 border rounded text-center p-2 bg-cus text-white">
+            <div className="border rounded text-center py-2 px-4 bg-cus text-white">
               DaisyUI
             </div>
-            <div className="col-5 col-md-3 col-lg-2 border rounded text-center p-2 bg-cus text-white">
+            <div className="border rounded text-center py-2 px-4 bg-cus text-white">
               JavaScript
             </div>
-            <div className="col-5 col-md-3 col-lg-2 border rounded text-center p-2 bg-cus text-white">
+            <div className="border rounded text-center py-2 px-4 bg-cus text-white">
               ReactJS
             </div>
-            <div className="col-5 col-md-3 col-lg-2 border rounded text-center p-2 bg-cus text-white">
+            <div className="border rounded text-center py-2 px-4 bg-cus text-white">
               NodeJS
             </div>
-            <div className="col-5 col-md-3 col-lg-2 border rounded text-center p-2 bg-cus text-white">
+            <div className="border rounded text-center py-2 px-4 bg-cus text-white">
               ExpressJS
             </div>
-            <div className="col-5 col-md-3 col-lg-2 border rounded text-center p-2 bg-cus text-white">
+            <div className="border rounded text-center py-2 px-4 bg-cus text-white">
               MongoDB
             </div>
-            <div className="col-5 col-md-3 col-lg-2 border rounded text-center p-2 bg-cus text-white">
+            <div className="border rounded text-center py-2 px-4 bg-cus text-white">
               Firebase
             </div>
-            <div className="col-5 col-md-3 col-lg-2 border rounded text-center p-2 bg-cus text-white">
+            <div className="border rounded text-center py-2 px-4 bg-cus text-white">
               Redux
             </div>
-            <div className="col-5 col-md-3 col-lg-2 border rounded text-center p-2 bg-cus text-white">
+            <div className="border rounded text-center py-2 px-4 bg-cus text-white">
               Axios
             </div>
           </div>
         </div>
         <div className="container px-3">
           <div className="fs-4 py-4">Tools I use every day</div>
-          <hr className="border-t-2 border-gray-700 pb-2" />
+          <hr className="py-2 border-gray-700 pb-2" />
           <div
             data-aos="fade-up"
             className="row row-cols-3 row-cols-md-5 gap-2 gap-md-4 pb-6 align-items-center"
           >
             <div className="col-3 col-md-3 col-lg-2 text-center p-2">
-              <img
-                height="50px"
-                width="50px"
-                src="https://i.ibb.co/X52j3XW/vs2-3.png"
-                alt=""
-              />
+              <TbBrandVscode style={{ height: "60px", width: "60px" }} />
             </div>
             <div className="col-3 col-md-3 col-lg-2 text-center p-2">
-              <img
-                height="80px"
-                width="80px"
-                src="https://i.ibb.co/xDC1dYb/git-removebg.png"
-                alt=""
-              />
+              <BsGithub style={{ height: "60px", width: "60px" }} />
             </div>
             <div className="col-3 col-md-3 col-lg-2 text-center p-2">
               <img
@@ -133,7 +125,7 @@ const Skills = () => {
         <div className="fs-4 pt-5 px-5">Freelance Clients</div>
 
         <div className="px-5">
-          <hr className="border-t-2 border-gray-700" />
+          <hr className="py-2 border-gray-700" />
         </div>
         <div className="px-5 fs-5">Loading...</div>
       </div>

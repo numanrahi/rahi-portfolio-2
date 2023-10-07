@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div style={{ overflowX: "hidden" }}>
       <div data-aos="fade-down" className="display-4 text-center mb-5">Expertise services</div>
-      <div className="row justify-content-around">
+      <div className="row justify-content-center gap-5">
         <div className="border my-sm-2 col-11 col-md-3 rounded p-4 service-hover">
           <div className="icon">
             <svg

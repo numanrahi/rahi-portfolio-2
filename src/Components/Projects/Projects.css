@@ -47,12 +47,10 @@
 .text-cus {
   color: #3f1d38;
 }
-.text-cus:hover {
+/* .text-cus:hover {
   text-decoration: underline !important;
-}
+} */
 .animate-character {
-  margin: auto !important;
-  text-align: center !important;
   text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
@@ -60,18 +58,33 @@
     #6483ec 29%,
     #e093e7 67%,
     #2d116e 100%
-    /* #e76056 0%,
-    #778edb 29%,
-    #2d116e 67%,
-    #e093e7 100% */
   );
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
+}
+.border-cus{
+  border: 2px solid darkblue;
+  border-radius: 16px;
+}
+@media (max-width:815px) {
+  .text-res{
+    font-size: 12px;
+  }
+}
+@media (max-width:512px) {
+  .link-res{
+    font-size: 13px;
+  }
+}
+@media (max-width:480px) {
+  .link-res{
+    font-size: 10px;
+  }
 }

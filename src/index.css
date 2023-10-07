@@ -7,7 +7,7 @@ body {
 }
 
 .text-secondary {
-  font-family: "Inconsolata", monospace;
+  font-family: "Inconsolata", monospace !important;
 }
 .btn-cus {
   background: rgb(80, 89, 171);
@@ -15,8 +15,7 @@ body {
 }
 
 .border-gray-700 {
-  --tw-border-opacity: 1;
-  border-color: darkblue
+  border-color: darkblue;
 }
 .border-t-2 {
   border-top-width: 2px;

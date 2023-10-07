@@ -14,13 +14,25 @@ const Home = () => {
     <div style={{ backgroundColor: "#C4C4C4", overflow: "hidden" }}>
       {/* <Navbar /> */}
       <Banner />
-      <About id="home-section" />
-      <Social />
-      <Skills id="skills-section" />
-      <Services />
-      <Projects id="projects-section" />
-      <Contact id="contact-section" />
-      <Footer/>
+      <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+        <About id="home-section" />
+      </div>
+      {/* <Social /> */}
+      <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+        <Skills />
+      </div>
+
+      <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+        <Services />
+      </div>
+      <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+        <Projects id="projects-section" />
+      </div>
+
+      <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+        <Contact id="contact-section" />
+      </div>
+      <Footer />
     </div>
   );
 };
