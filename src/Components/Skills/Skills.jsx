@@ -1,7 +1,15 @@
 import React from "react";
 import "./Skills.css";
-import { TbBrandVscode } from "react-icons/tb";
+import {
+  TbBrandVscode,
+  TbBrandFirebase,
+  TbBrandMongodb,
+  TbBrandVercel,
+} from "react-icons/tb";
 import { BsGithub } from "react-icons/bs";
+import { FiFigma } from "react-icons/fi";
+import { SiNetlify } from "react-icons/si";
+import { LiaJira } from "react-icons/lia";
 const Skills = () => {
   return (
     <div>
@@ -57,77 +65,42 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="container px-3">
+        <div className="container px-5">
           <div className="fs-4 py-4">Tools I use every day</div>
           <hr className="py-2 border-gray-700 pb-2" />
           <div
             data-aos="fade-up"
-            className="row row-cols-3 row-cols-md-5 gap-2 gap-md-4 pb-6 align-items-center"
+            className="d-flex flex-wrap gap-2 gap-md-4 pb-6"
           >
-            <div className="col-3 col-md-3 col-lg-2 text-center p-2">
+            <div className=" text-center py-2 px-4">
               <TbBrandVscode style={{ height: "60px", width: "60px" }} />
             </div>
-            <div className="col-3 col-md-3 col-lg-2 text-center p-2">
+            <div className=" text-center py-2 px-4">
               <BsGithub style={{ height: "60px", width: "60px" }} />
             </div>
-            <div className="col-3 col-md-3 col-lg-2 text-center p-2">
-              <img
-                height="80px"
-                width="80px"
-                src="https://i.ibb.co/TBjNd0T/figma2.png"
-                alt=""
-              />
+            <div className=" text-center py-2 px-4">
+              <FiFigma style={{ height: "60px", width: "60px" }} />
             </div>
-            <div className="col-3 col-md-3 col-lg-2 text-center p-2">
-              <img
-                height="70px"
-                width="70px"
-                src="https://i.ibb.co/dkLCQgP/firebase-1.png"
-                alt=""
-              />
+            <div className=" text-center py-2 px-4">
+              <TbBrandFirebase style={{ height: "60px", width: "60px" }} />
             </div>
-            <div className="col-3 col-md-3 col-lg-2 text-center p-2">
-              <img
-                height="80px"
-                width="80px"
-                src="https://i.ibb.co/CzNdVMN/mongodb.png"
-                alt=""
-              />
+            <div className=" text-center py-2 px-4">
+              <TbBrandMongodb style={{ height: "60px", width: "60px" }} />
             </div>
-            <div className="col-3 col-md-3 col-lg-2 text-center p-2">
-              <img
-                height="70px"
-                width="70px"
-                src="https://i.ibb.co/FJR2VDR/jira.png"
-                alt=""
-              />
+            <div className=" text-center py-2 px-4">
+              <TbBrandVercel style={{ height: "60px", width: "60px" }} />
             </div>
-            <div className="col-3 col-md-3 col-lg-2 text-center p-2">
-              <img
-                height="70px"
-                width="70px"
-                src="https://i.ibb.co/DbzXCcB/vercel-1.png"
-                alt=""
-              />
+            <div className=" text-center py-2 px-4">
+              <LiaJira style={{ height: "60px", width: "60px" }} />
             </div>
-            <div className="col-3 col-md-3 col-lg-2 text-center p-2">
-              <img
-                height="80px"
-                width="80px"
-                src="https://i.ibb.co/JqtF6z8/netlify-1.png"
-                alt=""
-              />
+            <div className=" text-center py-2 px-4">
+              <SiNetlify style={{ height: "60px", width: "60px" }} />
             </div>
           </div>
         </div>
       </div>
-      <div>
-        <div className="fs-4 pt-5 px-5">Freelance Clients</div>
-
-        <div className="px-5">
-          <hr className="py-2 border-gray-700" />
-        </div>
-        <div className="px-5 fs-5">Loading...</div>
+      <div className="px-5 py-3">
+        <hr className="py-2 border-gray-700" />
       </div>
     </div>
   );

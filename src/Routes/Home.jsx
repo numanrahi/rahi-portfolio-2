@@ -9,13 +9,14 @@ import Projects from "../Components/Projects/Projects";
 import Contact from "../Components/Contact/Contact";
 import Footer from "../Components/Footer/Footer";
 
+
 const Home = () => {
   return (
     <div style={{ backgroundColor: "#C4C4C4", overflow: "hidden" }}>
       {/* <Navbar /> */}
       <Banner />
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-        <About id="home-section" />
+        <About />
       </div>
       {/* <Social /> */}
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
@@ -26,11 +27,11 @@ const Home = () => {
         <Services />
       </div>
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-        <Projects id="projects-section" />
+        <Projects />
       </div>
 
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-        <Contact id="contact-section" />
+        <Contact/>
       </div>
       <Footer />
     </div>

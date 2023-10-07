@@ -19,18 +19,18 @@ const Banner = () => {
       <div className="p-5 text-center">
         <img
           src="https://i.ibb.co/z5nQQHJ/My-project.jpg"
-          height="100px"
-          width="100px"
+          height="200px"
+          width="200px"
           style={{ borderRadius: "50%" }}
           alt=""
         />
       </div>
       <div className="text-center">
-        <p className="text-secondary text-dark" style={{ fontSize: "2rem" }}>
+        <p className="text-secondary text-dark display-2">
           Abdullah Al Numan Rahi
         </p>
         <TypeAnimation
-          className="display-2 fs-sm-5"
+          className="animation-text "
           sequence={[
             "A frontend Developer",
             500,
@@ -51,7 +51,7 @@ const Banner = () => {
       <div className="mx-auto text-center p-5">
         <section
           onClick={handleDownload}
-          className="btn btn-cus w-25 text-white"
+          className="btn btn-cus btn-w text-white"
         >
           Resume
         </section>
